@@ -1,6 +1,6 @@
 #include <avr/io.h>
-//#include <util/delay.h>
 #include "activity1.h"
+#include "activity2.h"
 
 int main()
 {
@@ -10,4 +10,5 @@ int main()
         if(a==BOTH_ON)
         break;
     }
+    int set_temp_value= readValues();
 }
