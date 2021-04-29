@@ -9,7 +9,7 @@ void send_temp_value(int set_temp_value)
     else if(set_temp_value >=501 && set_temp_value<700)
         send_temperature(29);
     else if(set_temp_value >=701 && set_temp_value<1024)
-        send_temperature(30);
+        send_temperature(33);
 }
 void init_communication()
 {
