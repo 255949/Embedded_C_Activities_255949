@@ -1,6 +1,16 @@
 #include <avr/io.h>
 #include "activity1.h"
 
+
+void check_buttonstate()
+{
+    while(1)
+    {
+        button_state current_status=check_status();
+        if(current_status==BOTH_ON)
+        break;
+    }
+}
 button_state check_status()
 {
     DDRB|= (1<<PB0);

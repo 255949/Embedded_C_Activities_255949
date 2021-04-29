@@ -10,7 +10,8 @@
 #define VERY_HIGH 95
 
 int duty_cycle;
-void setHeatingTemperature(int value);
+void set_heating_temperature(int);
+void setduty(int);
 void setup_pwm();
 void generate_signal();
 

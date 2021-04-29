@@ -11,6 +11,7 @@ typedef enum button_state
     BOTH_OFF=2
 }button_state;
 
+void check_buttonstate();
 button_state check_status();
 
 #endif

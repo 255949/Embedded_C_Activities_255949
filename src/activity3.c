@@ -1,6 +1,17 @@
 #include "activity3.h"
 
-void setHeatingTemperature(int value)
+void set_heating_temperature(int value)
+{
+    if(value >=0 && value<200)
+        setduty(LOW);
+    else if(value >=201 && value<500)
+        setduty(MEDIUM);
+    else if(value >=501 && value<700)
+        setduty(HIGH);
+    else if(value >=701 && value<1024)
+        setduty(VERY_HIGH);
+}
+void setduty(int value)
 {
     duty_cycle=value;
     setup_pwm();
