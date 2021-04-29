@@ -3,7 +3,6 @@
 int readValues()
 {
     setupAdc();
-    sei();
     return setValue;
 }
 void setupAdc()
@@ -16,9 +15,7 @@ void setupAdc()
 void startConversion()
 {
     ADCSRA |= (1 << ADSC);
-}
-
-ISR(ADC_vect)
-{
-	setValue = ADC;
+    while(!(ADCSRA & (1<<ADIF)))
+    ADCSRA|=(1<<ADIF);
+    setValue=ADC;
 }
