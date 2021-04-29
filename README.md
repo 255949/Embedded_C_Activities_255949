@@ -17,7 +17,7 @@ Embedded C activities in StepIn Program
 
 | Duty Cycle | Output                              | Serial Monitor                        |
 |------------|-------------------------------------|---------------------------------------|
-| 20%        | <img src="/simulation/20_duty.PNG"> | <img src="/simulation/serial_20.PNG"> |
-| 40%        | <img src="/simulation/40_duty.PNG"> | <img src="/simulation/serial_40.PNG"> |
-| 70%        | <img src="/simulation/70_duty.PNG"> | <img src="/simulation/serial_70.PNG"> |
-| 95%        | <img src="/simulation/90_duty.PNG"> | <img src="/simulation/serial_90.PNG"> |
+| 20%        | <img src="/simulation/20_duty.PNG"> | <img src="/simulation/Serial_20.PNG"> |
+| 40%        | <img src="/simulation/40_duty.PNG"> | <img src="/simulation/Serial_40.PNG"> |
+| 70%        | <img src="/simulation/70_duty.PNG"> | <img src="/simulation/Serial_70.PNG"> |
+| 95%        | <img src="/simulation/90_duty.PNG"> | <img src="/simulation/Serial_90.PNG"> |
