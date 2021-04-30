@@ -21,8 +21,8 @@ void setup_pwm()
 {
     DDRD |= (1<<PD6);                                               // Set D6 as output
     TCCR0A|= (1<<COM0A1) | (1<<WGM01) | (1<<WGM00);                 // Setup PWM with Non-inverted mode of operation
-	TIMSK0=(1<<TOIE0);                                              // Enable overflow interrupt
-	TCCR0B|= (1<<CS01) | (1<<CS00);                                 // Set 64 prescaler
+    TIMSK0=(1<<TOIE0);                                              // Enable overflow interrupt
+    TCCR0B|= (1<<CS01) | (1<<CS00);                                 // Set 64 prescaler
 }
 
 void generate_signal()
