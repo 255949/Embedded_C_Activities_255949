@@ -1,3 +1,14 @@
+/**
+ * @file activity1.c
+ * @author Ayushman Ranu
+ * @brief Source code for activity 1 - Functions check status of buttons
+ *  before turning on an LED
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <avr/io.h>
 #include "activity1.h"
 

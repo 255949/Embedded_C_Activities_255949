@@ -1,3 +1,15 @@
+/**
+ * @file activity1.h
+ * @author Ayushman Ranu
+ * @brief Header file containing definitions for functions and macros
+ *  used for Activity 1 - Reading the input from 2 buttons and light an 
+ *  LED based if both are switched on simultaneously 
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef _ACTIVITY1_H
 #define _ACTIVITY1_H
 #define BUTTON_PORT (DDRB)

@@ -1,3 +1,14 @@
+/**
+ * @file activity4.c
+ * @author Ayushman Ranu
+ * @brief Source code that sets up UART communication, and writes the values from string
+ *  to the UDR register one character at a time
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "activity4.h"
 
 void send_temp_value(int set_temp_value)                    // Function to set temperature to be displayed

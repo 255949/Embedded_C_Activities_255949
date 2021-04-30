@@ -1,3 +1,14 @@
+/**
+ * @file activity2.h
+ * @author Ayushman Ranu
+ * @brief Header file including function definitions for Activity 2 - Reading values
+ *  from a potentiometer into the ADC
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef _ACTIVITY2_H
 #define _ACTIVITY2_H
 

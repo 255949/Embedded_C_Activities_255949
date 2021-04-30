@@ -1,3 +1,14 @@
+/**
+ * @file activity4.h
+ * @author Ayushman Ranu
+ * @brief  Header file with function definitions for Activity 4 - Sending value of set
+ *  temperature by UART Protocol
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef _ACTIVITY4_H_
 #define _ACTIVITY4_H_
 #include <avr/io.h>

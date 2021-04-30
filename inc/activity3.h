@@ -1,6 +1,18 @@
 #ifndef _ACTIVITY3_H_
 #define _ACTIVITY3_H_
 
+/**
+ * @file activity3.h
+ * @author Ayushman Ranu
+ * @brief Header file containing function definitions for Activity 3 - Output of a PWM signal
+ * based on the value read by the ADC
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 #include <avr/io.h>
 #include <avr/interrupt.h>
 

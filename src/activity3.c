@@ -1,3 +1,14 @@
+/**
+ * @file activity3.c
+ * @author Ayushman Ranu
+ * @brief  Source code for activity 3 - Functions set up PWM in non-inverting mode
+ *  and output the PWM to a pin based on ADC read value
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "activity3.h"
 
 void set_heating_temperature(int value)                             // Function sets PWM value based on ADC input

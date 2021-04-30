@@ -1,3 +1,14 @@
+/**
+ * @file activity2.c
+ * @author Ayushman Ranu
+ * @brief  Source code for setting up the ADC and completing conversion
+ *  before sending the final read value to the PWM generation function
+ * @version 0.1
+ * @date 2021-04-30
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "activity2.h"
 
 int readValues()
